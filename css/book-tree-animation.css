@@ -1,0 +1,115 @@
+#book-tree-animation {
+  margin-top: 1vw;
+  /*Image Directory*/
+  /*Customize each book(#--> left to right)*/ }
+  #book-tree-animation #animation--tree {
+    position: absolute;
+    margin-left: 20vw;
+    background-image: url("../assets/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-repeat: no-repeat;
+    background-size: 60vw;
+    height: 48vw;
+    width: 60vw;
+    opacity: 1; }
+    #book-tree-animation #animation--tree #animation--tree--left {
+      float: left;
+      width: 50%;
+      height: 94%;
+      background-color: black;
+      background-color: white;
+      opacity: 0.3; }
+    #book-tree-animation #animation--tree #animation--tree--right {
+      float: right;
+      width: 50%;
+      height: 94%;
+      opacity: 0.5; }
+  #book-tree-animation .animation--book-1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 4;
+    background-size: 8vw;
+    height: 12vw;
+    width: 8vw;
+    cursor: pointer; }
+  #book-tree-animation .animation--book-1:hover {
+    animation-name: animation--book-appear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; }
+@keyframes animation--book-appear {
+  from {
+    opacity: 0.8; }
+  to {
+    opacity: 1; } }
+  #book-tree-animation #animation--book-1 {
+    background-image: url("../assets/06bookkramer1-superJumbo.png");
+    margin-left: 27vw;
+    margin-top: 24vw; }
+  #book-tree-animation #animation--book-2 {
+    background-image: url("../assets/9781579657888_3D.png");
+    margin-left: 25vw;
+    margin-top: 10vw;
+    background-size: 9.8vw;
+    height: 13.8vw;
+    width: 9.8vw; }
+  #book-tree-animation #animation--book-3 {
+    background-image: url("../assets/Retire-Before-Mom-and-Dad_Rob-Berger_3D-Paperback-1500.png");
+    margin-left: 34vw;
+    margin-top: 1vw;
+    background-size: 13vw;
+    height: 13.8vw;
+    width: 13vw; }
+  #book-tree-animation #animation--book-4 {
+    background-image: url("../assets/MixtapePotluck_Cover_3D.png");
+    margin-left: 47vw;
+    margin-top: -1vw; }
+  #book-tree-animation #animation--book-5 {
+    background-image: url("../assets/9781616207861_3D.png");
+    margin-left: 57vw;
+    margin-top: 1vw;
+    background-size: 9vw;
+    height: 13.8vw;
+    width: 10vw; }
+  #book-tree-animation #animation--book-6 {
+    background-image: url("../assets/1593174864.png");
+    margin-left: 60vw;
+    margin-top: 10vw;
+    background-size: 19vw;
+    height: 13.8vw;
+    width: 20vw; }
+  #book-tree-animation #animation--book-7 {
+    background-image: url("../assets/book-only.webp");
+    margin-left: 67vw;
+    margin-top: 24vw;
+    background-size: 7vw;
+    height: 13.8vw;
+    width: 7vw; }
+  #book-tree-animation #animation--darkcover {
+    position: absolute;
+    background-color: black;
+    margin-top: 4vw;
+    margin-left: 7vw;
+    height: 40vw;
+    width: 86vw;
+    display: none;
+    animation-name: animation--book-appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 5; }
+@keyframes animation--book-appear {
+  from {
+    opacity: 0.3; }
+  to {
+    opacity: 0.8; } }
+  #book-tree-animation #animation--darkcover-closer {
+    position: absolute;
+    width: 7vw;
+    height: 100px;
+    background-image: url("../assets/closing.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    margin-left: 93vw;
+    margin-top: 4vw;
+    cursor: pointer; }
+
+/*# sourceMappingURL=book-tree-animation.css.map */
